@@ -16,6 +16,7 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   z-index: 1;
+  background-color: black;
 }
 .logo {
   height: 50px;
@@ -32,3 +33,27 @@ a {
   text-decoration: underline;
   color: seashell;
 }
+
+/* Main Content*/
+.main {
+  display: flex;
+  padding-top: 70px;
+  margin: auto;
+  justify-content: center;
+  width: 1200px
+}
+/* Mission*/
+.jumbotron {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.banner {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+/*Tea of the Month*/

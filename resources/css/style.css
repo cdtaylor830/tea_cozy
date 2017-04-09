@@ -40,10 +40,17 @@ a {
   padding-top: 70px;
   margin: auto;
   justify-content: center;
-  width: 1200px
+  width: 1200px;
+  flex-wrap: wrap;
 }
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+}
+
 /* Mission*/
-.jumbotron {
+.mission {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
@@ -57,3 +64,32 @@ a {
   margin: auto;
 }
 /*Tea of the Month*/
+.tea-month {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+.tea-month h2 {
+  width: 100%;
+}
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.thumbnail img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+.thumbnail {
+  padding: 5px;
+}
+.thumbnail span {
+  display: block;
+}
